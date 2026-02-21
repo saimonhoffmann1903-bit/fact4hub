@@ -105,7 +105,7 @@ end
 -- GUI
 -- ===============================
 local gui = Instance.new("ScreenGui", player.PlayerGui)
-gui.Name="FACT4_GUI"
+gui.Name="EZX Hub"
 gui.ResetOnSpawn=false
 
 -- PAINEL PRINCIPAL (MENOR)
@@ -121,7 +121,7 @@ Instance.new("UICorner", main).CornerRadius=UDim.new(0,18)
 -- HEADER
 local header = Instance.new("TextLabel", main)
 header.Size=UDim2.new(1,0,0,40)
-header.Text="FACT 4"
+header.Text="EZX Hub"
 header.Font=Enum.Font.GothamBold
 header.TextSize=16
 header.TextColor3=Color3.fromRGB(240,240,255)
